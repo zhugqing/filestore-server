@@ -1,11 +1,14 @@
 package handler
 
 import (
+	"filestore-server/meta"
+	"filestore-server/util"
 	"fmt"
 	"io"
 	"io/ioutil"
 	"net/http"
 	"os"
+	"time"
 )
 
 func UploadHandler(w http.ResponseWriter, r*http.Request)  {
@@ -24,20 +27,30 @@ func UploadHandler(w http.ResponseWriter, r*http.Request)  {
 			return
 		}
 		defer file.Close()
-		fmt.Println(head.Filename)
 
-		newFile,err:=os.Create("./static/"+head.Filename)
+		FileMeta:=meta.FileMeta{
+			FileNmae: head.Filename,
+			Location: "./static/"+head.Filename,
+			UploadAt: time.Now().Format("2006-01-01 13:16:08"),
+		}
+
+		newFile,err:=os.Create(FileMeta.Location)
 		if err != nil {
 			fmt.Printf("Failed to create file,err:%s",err.Error())
 			return
 		}
 		defer newFile.Close()
 
-		_,err=io.Copy(newFile,file)
+		FileMeta.FileSize,err=io.Copy(newFile,file)
 		if err != nil {
 			fmt.Printf("Failed to save data into file,err:%s",err.Error())
 			return
 		}
+
+		newFile.Seek(0,0)
+		FileMeta.FileShal = util.FileShal(newFile)
+		meta.UploadFileMeta(FileMeta)
+
 		http.Redirect(w,r,"/file/upload/suc",http.StatusFound)
 	}
 }
