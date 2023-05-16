@@ -1,0 +1,14 @@
+[2022/8/30 22:04:33] [init]: {"cookie":"","cachePath":"","bps":5120000}
+[2022/8/30 22:04:33] [setConfig]: {"cookie":"","cachePath":"C:\\Users\\qiang\\Videos\\bilibili","bps":5120000}
+[2022/8/30 22:04:33] [getVideoList]: 0
+[2022/8/30 22:04:37] [getVideoList]: 0
+[2022/8/30 22:04:37] [stopLoadList]: []
+[2022/8/30 22:04:37] [getVideoList]: 0
+[2022/8/30 22:05:22] [getVideoList]: 0
+[2022/8/30 22:05:22] [getVideoList]: 0
+[2022/8/30 22:05:52] [setConfig]: {"cookie":"buvid3=677B348F15B3731C666C40F022083022trJb5CIgyf/f2YcUO4Moww; mobi_app=pc_electron; platform=web; device=win; device_id=; innersign=0; b_lsid=FB3BFC5F_182EF124B02; _uuid=9F1E6F2B-7E56-2FF6-CD102-85857AA10596529736infoc; fingerprint=fb87445cf80b62ae760b4659b37e8cb7; buvid_fp=677B348F15B3731C666C40F022083022trJb5CIgyf/f2YcUO4Moww; buvid_fp_plain=undefined; b_nut=1661868329; buvid4=B9BBB8C2-7953-7EA6-D2F0-3FF55794610629931-022083022-trJb5CIgyf/f2YcUO4Moww%3D%3D; SESSDATA=72801d35%2C1677420351%2C49659%2A81; bili_jct=fb59d702c0193fd050ef9299bfd18027; DedeUserID=371876240; DedeUserID__ckMd5=f7e7aadd394412ce; sid=5xugmdd9","cachePath":"C:\\Users\\qiang\\Videos\\bilibili","bps":5120000}
+[2022/8/30 22:05:52] [getVideoList]: 0
+[2022/8/30 22:05:52] [getVideoList]: 0
+[2022/8/30 22:06:37] [getVideoList]: 0
+[2022/8/30 22:07:10] [setConfig]: {"cookie":"buvid3=677B348F15B3731C666C40F022083022trJb5CIgyf/f2YcUO4Moww; mobi_app=pc_electron; platform=web; device=win; device_id=; innersign=0; b_lsid=FB3BFC5F_182EF124B02; _uuid=9F1E6F2B-7E56-2FF6-CD102-85857AA10596529736infoc; fingerprint=fb87445cf80b62ae760b4659b37e8cb7; buvid_fp=677B348F15B3731C666C40F022083022trJb5CIgyf/f2YcUO4Moww; buvid_fp_plain=undefined; b_nut=1661868329; buvid4=B9BBB8C2-7953-7EA6-D2F0-3FF55794610629931-022083022-trJb5CIgyf/f2YcUO4Moww%3D%3D; SESSDATA=72801d35%2C1677420351%2C49659%2A81; bili_jct=fb59d702c0193fd050ef9299bfd18027; DedeUserID=371876240; DedeUserID__ckMd5=f7e7aadd394412ce; sid=5xugmdd9","cachePath":"D:\\学习","bps":5120000}
+[2022/8/30 22:07:10] [getVideoList]: 0
