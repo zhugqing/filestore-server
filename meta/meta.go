@@ -19,6 +19,7 @@ func UploadFileMeta(fmeta FileMeta) {
 	fileMetas[fmeta.FileShal] = fmeta
 }
 
+// 获取文件元信息
 func GetFileMeta(fileShal string) FileMeta {
 	return fileMetas[fileShal]
 }
